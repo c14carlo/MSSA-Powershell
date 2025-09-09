@@ -1,6 +1,11 @@
 # MSSA-Powershell/Bash
 Showing what I learn from the basics to more advanced 
 
+
+
+
+
+
 PowerShell & Bash Basics
 
 ** PowerShell (Windows, cross-platform with PowerShell Core)
