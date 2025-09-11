@@ -1,0 +1,1 @@
+Get-PSDrive -PSProvider 'FileSystem' | Select-Object Name, @{Name='FreeSpaceGB';Expression={"{0:N2}" -f ($_.Free/1GB)}}  
