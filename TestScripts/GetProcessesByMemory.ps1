@@ -1,0 +1,1 @@
+Get-Process | Sort-Object -Property WorkingSet -Descending | Select-Object -Property Name, Id, @{Name="MemoryMB";Expression={"{0:N2}" -f ($_.WorkingSet/1MB)}} | Format-Table -AutoSize
